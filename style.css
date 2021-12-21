@@ -277,7 +277,7 @@ body {
 .con input:focus {
     background-color: #1d1d1d;
     border-color: #fe0a54;
-    border-width: 2px;
+    border-width: 4px;
     transition: ease-in 0.3s;
 }
 
