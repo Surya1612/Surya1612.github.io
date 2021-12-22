@@ -39,14 +39,17 @@
     #q1 {
         margin-bottom: 30px;
     }
+    #ss {
+        margin-left: 30px;
+    }
     .card-img-top {
-        width: 380px;
+        width: 350px;
     }
     #s {
         margin-left: -80px;
     }
     .con input {
-        width: 310px;
+        width: 360px;
         margin-left: 20px;
     }
     #me {
