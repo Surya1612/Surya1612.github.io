@@ -42,6 +42,9 @@
     #ss {
         margin-left: 30px;
     }
+    #se {
+        margin-left: 30px;
+    }
     .card-img-top {
         width: 350px;
     }
@@ -142,6 +145,12 @@
     #edu {
         margin-left: -70px;
     }
+    #ss {
+        margin-left: 30px;
+    }
+    #se {
+        margin-left: 30px;
+    }
 }
 
 @media (min-width: 411px) and (max-width: 731px) {
@@ -152,6 +161,12 @@
         text-align: center;
         justify-content: center;
         justify-items: center;
+    }
+    #ss {
+        margin-left: 30px;
+    }
+    #se {
+        margin-left: 30px;
     }
     .a {
         font-size: 18px;
@@ -230,6 +245,12 @@
         margin-top: 20px;
         margin-left: 40px;
     }
+    #ss {
+        margin-left: 30px;
+    }
+    #se {
+        margin-left: 30px;
+    }
     .next-page {
         margin-top: 30px;
         margin-left: -20px;
@@ -262,9 +283,16 @@
     #q1 {
         margin-left: -100px;
         margin-bottom: 30px;
+        width: 155%;
     }
     .card-img-top {
-        width: 320px;
+        width: 280px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-text {
+        font-size: 12px;
     }
     #s {
         margin-left: -80px;
@@ -294,6 +322,12 @@
     .next-page {
         margin-top: 60px;
         margin-left: -20px;
+    }
+    #ss {
+        margin-left: 30px;
+    }
+    #se {
+        margin-left: 30px;
     }
     .primary,
     .secondary,
@@ -342,6 +376,12 @@
     }
     #co {
         margin-left: 20px;
+    }
+    #ss {
+        margin-left: 30px;
+    }
+    #se {
+        margin-left: 30px;
     }
 }
 
@@ -427,5 +467,12 @@
     }
     .con input {
         width: 600px;
+    }
+    #q1 {
+        width: 25%;
+        margin-right: 10px;
+    }
+    .card-text {
+        font-size: 22px;
     }
 }
