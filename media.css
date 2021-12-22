@@ -37,7 +37,6 @@
         margin-left: -50px;
     }
     #q1 {
-        margin-left: -100px;
         margin-bottom: 30px;
     }
     .card-img-top {
@@ -46,11 +45,9 @@
     #s {
         margin-left: -80px;
     }
-    .con {
-        margin-left: -96px;
-    }
     .con input {
-        width: 360px;
+        width: 310px;
+        margin-left: 20px;
     }
     #me {
         height: 120px;
@@ -127,6 +124,8 @@
     }
     .con input {
         width: 320px;
+        margin-left: 20px;
+        width: 310px;
     }
     #me {
         height: 120px;
@@ -194,7 +193,8 @@
         margin-left: -96px;
     }
     .con input {
-        width: 360px;
+        width: 310px;
+        margin-left: 20px;
     }
     #me {
         height: 120px;
@@ -271,6 +271,7 @@
     }
     .con input {
         width: 280px;
+        margin-left: 20px;
     }
     #me {
         height: 120px;
@@ -332,6 +333,12 @@
     #home {
         margin-top: 20px;
         margin-left: 40px;
+    }
+    .con input {
+        width: 300px;
+    }
+    #co {
+        margin-left: 20px;
     }
 }
 
