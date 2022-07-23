@@ -377,20 +377,22 @@
 
               <div class="row">
                 <div class="col-12 col-md-7 in text-white">
-                    <form>
+                     <form id="my-form" action="https://formspree.io/f/xrgjnyyn" method="post">
                         <div class="mb-3">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="name">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="name" required>
                           </div>
                          <div class="mb-3">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
                           </div>
                           <div class="mb-3">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="comment" name="comment" style="height: 100px"></textarea>
-                          </div>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="comment" name="comment" style="height: 100px" required></textarea>
+                          </div> 
                            <div class="mb-3">
-                            <a href="#" class="btn btn-dark">Submit</a>
+                            <button  id="my-form-button"  class="btn btn-dark bt">Submit</button>
                            </div>
+                            <p id="my-form-status"></p>
                     </form>
+                   
                    
                       
                 </div>
