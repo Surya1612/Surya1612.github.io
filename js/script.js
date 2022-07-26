@@ -4,7 +4,12 @@ window.addEventListener("load", function() {
     load.style.display = "none";
 })
 
-
+$(document).ready(function(){
+  $("li").click(function(){
+    $("li").removeClass("active");
+    $(this).addClass("active");
+    });
+});
 
     var form = document.getElementById("my-form");
     
@@ -35,6 +40,6 @@ window.addEventListener("load", function() {
         status.innerHTML = "Oops! There was a problem submitting your form"
       });
     }
-    form.addEventListener("submit", handleSubmit)
 
+    form.addEventListener("submit", handleSubmit);
 
