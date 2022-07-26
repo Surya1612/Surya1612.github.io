@@ -235,5 +235,41 @@ body{
 #my-form-status{
     color: white;
     font-weight: bold;
-
+    font-size: large;
 }
+#new{
+margin-top: 20px;
+}
+
+.card{
+    background-color: #1d1d1d;
+}
+
+div .colored-circle {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color:#09fdd9;
+    background-color: #09fdd9;
+    height: 10px;
+    width: 10px;
+    animation: glowing 2000ms infinite;
+  }
+
+  @keyframes glowing {
+    0% {
+      background-color:#9df9eb;
+      box-shadow: 0 0 3px #9df9eb;
+    }
+    50% {
+      background-color:#66f7e1;
+      box-shadow: 0 0 10px #66f7e1;
+    }
+    100% {
+      background-color:#09fdd9;
+      box-shadow: 0 0 3px #09fdd9;
+    }
+  }
